@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
+
+  const name = "cleito";
+
+  const url = "https://images.pexels.com/photos/3183649/pexels-photo-3183649.jpeg?auto=compress&cs=tinysrgb&w=400";
+
+  function soma(a , b){
+    return a + a + b;
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello Word !!</h1>
+      <h3>ola, my friendo {name}</h3>
+      <h3>soma : {10 + 20}</h3>
+      <h3>soma : {soma(5,10)}</h3>
+      <img src={url} />
     </div>
   );
 }
