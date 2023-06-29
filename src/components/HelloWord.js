@@ -4,7 +4,6 @@ function HelloWord() {
     return (
         <main>
             <Frase />
-            <br></br>
             <h1>please</h1>
         </main>
     )
